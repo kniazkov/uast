@@ -44,7 +44,8 @@ Protected <- 0;
 Private <- 0;
 AccessModifier <- Public | Protected | Private;
 Final <- 0;
-Modifier <- AccessModifier | Final;
+Static <- 0;
+Modifier <- AccessModifier | Final | Static;
 
 DataType <- PrimitiveType | Void;
 Void <- 0;
